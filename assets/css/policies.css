@@ -1,0 +1,11 @@
+:root {
+    --custom-border: #ebebeb;
+    --custom-dark-border: #cfcdcd;
+    --brand-color:#fedc19;
+    --grey:grey;
+    --social-color:#212529;
+    --contact-border:#f0f0f0;
+    --font-color:#777;
+    --primary-font: 'Source Sans Pro', sans-serif;
+    --secondary-font:'Montserrat', sans-serif;
+  }

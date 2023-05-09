@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs-Sinrato</title>
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- fontfamily -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- font-family: 'Source Sans Pro', sans-serif; -->
+
+    <!-- font-family: 'Montserrat', sans-serif; -->
+    <!-- fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/blogs.css">
+
+
+</head>
+
+<body>
+
+
+    <section class="top-bar">
+        <div class="container-fluid ">
+            <div class="my-container ">
+                <div class=" row p-2 px-4 d-flex align-items-center">
+                    <div class="topbar-left col-12 col-lg-6 d-flex align-items-center">
+                        <p class="py-2 w-100 text-center text-lg-start  topbar-title text-white m-0">
+                            <span class="grey">Email:</span> support@roadthemes.com <span class="mx-3 grey">|</span>Free
+                            Shipping for all
+                            Order of $99</p>
+                    </div>
+                    <div class="topbar-right col-12 col-lg-6">
+                        <div class=" d-flex justify-content-center justify-content-lg-end ">
+                            <a href="">My account</a>
+                            <span class="mx-3 py-1 grey">|</span>
+                            <a href="">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="menu-bar">
+        <div class="container-fluid">
+            <div class="my-container">
+                <div class="row  p-4 mt-2 second-topbar d-flex align-content-center  ">
+                    <div
+                        class="col-lg-2 col-md-12 align-items-center d-flex  justify-content-md-center justify-content-end">
+                        <figure>
+                            <img src="../assets/images/logo_sinrato (1).png" style="width: 180px; height: 40px;"
+                                alt="logo">
+                        </figure>
+                    </div>
+                    <div class="col-lg-7 col-md-12 d-flex justify-content-md-center justify-content-lg-start">
+                        <div class="custom-group-btn btn-group border-0" role="group"
+                            aria-label="Button group with nested dropdown">
+                            <div class="panel btn-group" role="group">
+                                <button id="btnGroupDrop1" type="button" class="left btn  dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    All Categories
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                </ul>
+                            </div> <input type="text" class="center  form-controll" placeholder="Search Products">
+                            <button type="button" class=" btn btn-yellow  ">Search</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  d-flex d-md-none d-lg-block justify-content-end">
+                        <div class="row  d-flex  t-hover">
+                            <div class="col-6 d-flex align-self-center ">
+                                <i class="fa-regular fa-heart fa-2x"></i>
+                                <div class="  mx-2 d-flex flex-column align-items-start">
+                                    <span class="badge  bg-custom-yellow  ">0</span>
+                                    <p><a class="text-decoration-none " href="" style="  font-size: 13px;"> Wishlist</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex align-self-center ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-cart3 d-flex align-self-start" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                </svg>
+                                <div class="mx-2 d-flex flex-column align-items-start">
+                                    <span class="badge rounded-pill bg-custom-yellow ">0</span>
+                                    <p><a class="text-decoration-none " href="" style="  font-size: 13px;"> My Cart</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="navbar" class="thrd-nav">
+        <div class="container-fluid d-flex flex-wrap  ">
+            <nav class="col-lg-12  col-md-12  navbar navbar-expand-lg navbar-expand-md  navbar-light  p-0 ">
+                <div class="container my-container">
+                    <button class="btn d-custom-btn rounded-0  dropdown-toggle p-3 " type="button"
+                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Browse Categories
+                    </button>
+                    <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    <div class=" d-hover-menu collapse d-hover-c-btn navbar-collapse  " id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item ">
+                                <a class="nav-link a " aria-current="page" href="../index.html">Home</a>
+                                <ul class="custom-card shadow ">
+                                    <li class="nav-item ">
+                                        <a class="nav-link aa " href="#">Home 1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa" href="#">Home-2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa">Home-3</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa">Home-4</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link a" href="../shop.html">Shop</a>
+                                <ul class="custom-card  shadow">
+                                    <li class="nav-item">
+                                        <a class="nav-link aa" href="#">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link aa" href="#">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link aa ">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link aa" href="#">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link aa" href="#">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link aa ">Test-1</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link a" href="blogs.html">Blog</a>
+                                <ul class="custom-card shadow">
+                                    <li class="nav-item">
+                                        <a class="nav-link aa" href="#">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link aa" href="#">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link aa" href="#">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link aa" href="#">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa">Test-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa">Test-1</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link a">Pages</a>
+                                <ul class=" custom-card shadow">
+                                    <li class="nav-item">
+                                        <a class="nav-link aa" href="#">Page-1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link aa" href="#">Page-2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa">Page-3</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  aa">Page-4</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link a" href="../about.html">About Us</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link a" href="../contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class=" ms-auto  d-lg-block d-md-none ">
+                            <span class="fw-bold"> Hotline:1-001-234-5678</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12   ">
+                    <div class="row">
+                        <div class="col-12 my-4">
+                            <h1 class="header-blog">
+                                blog
+                            </h1>
+                        </div>
+                        <div class="col-6">
+                            <div class="post-img-container">
+                                <div class="image-btn  ">
+                                    <img src="../assets/images/blogs-image/1.jpg" class="img-fluid " alt="camera-image">
+                                    <div class="my-btn">
+                                        <a href="" type="button" class="btn ">
+                                            company
+                                        </a>
+                                        <a href="" type="button" class="btn ">
+                                            image
+                                        </a>
+                                        <a href="" type="button" class="btn ">
+                                            travel
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="img-sticky">
+                                            Blog image post (sticky)
+                                        </h3>
+                                        <span class="calender">
+                                            <span>
+                                                <i class="fas fa-user"></i>
+                                                <a href="">admin</a></span>
+                                            <span>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <a href="">april,24,2022</a>
+                                            </span>
+                                        </span>
+
+                                        <hr>
+                                        <p class="post-discription">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe beatae
+                                            excepturi Lorem ipsum dolor sit amet.
+                                            cumque at delectus, dolorum recusandae! A illo veniam enim quam, repellendus
+                                            architecto, odio obcaecati rerum libero hic alias minima.
+                                        </p>
+                                        <div class="read">
+                                            <a class="btn rounded-pill" href="#" role="button">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-galery-container mt-5">
+
+                                <div class="owl-carousel owl-theme " >
+                                    <div class="item ">
+                                        <img src="../assets/images/blogs-image/blogs-carousel/11.jpg"  alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="../assets/images/blogs-image/blogs-carousel/12.jpg"  alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="../assets/images/blogs-image/blogs-carousel/13.jpg"  alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="../assets/images/blogs-image/blogs-carousel/14.jpg"  alt="">
+                                    </div>
+
+                                </div>
+                                <div class="my-btn">
+                                    <a href="" type="button" class="btn ">
+                                        company
+                                    </a>
+                                    <a href="" type="button" class="btn ">
+                                        image
+                                    </a>
+                                    <a href="" type="button" class="btn ">
+                                        travel
+                                    </a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="img-sticky">
+                                            Post with Gallery
+                                        </h3>
+                                        <span class="calender">
+                                            <span>
+                                                <i class="fas fa-user"></i>
+                                                <a href="">admin</a></span>
+                                            <span>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <a href="">april,24,2022</a>
+                                            </span>
+                                        </span>
+
+                                        <hr>
+                                        <p class="post-discription">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe beatae
+                                            excepturi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit,
+                                            eaque.
+                                            cumque at delectus, dolorum recusandae! A illo veniam enim quam, repellendus
+                                            architecto, odio obcaecati rerum libero hic alias minima.
+                                        </p>
+                                        <div class="read">
+                                            <a class="btn rounded-pill" href="#" role="button">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-audio-container mt-5">
+                                <div class="img-btn">
+                                    <img src="../assets/images/blogs-image/1.jpg" class="img-fluid" alt="camera-image">
+                                    <div class="my-btn">
+                                        <a href="" type="button" class="btn ">
+                                            company
+                                        </a>
+                                        <a href="" type="button" class="btn ">
+                                            image
+                                        </a>
+                                        <a href="" type="button" class="btn ">
+                                            travel
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="img-sticky">
+                                            Post with Audio
+                                        </h3>
+                                        <span class="calender">
+                                            <span>
+                                                <i class="fas fa-user"></i>
+                                                <a href="">admin</a></span>
+                                            <span>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <a href="">april,24,2022</a>
+                                            </span>
+                                        </span>
+
+                                        <hr>
+                                        <p class="post-discription">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe beatae
+                                            excepturi
+                                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                                            cumque at delectus, dolorum recusandae! A illo veniam enim quam, repellendus
+                                            architecto, odio obcaecati rerum libero hic alias minima.
+                                        </p>
+                                        <div class="read">
+                                            <a class="btn rounded-pill" href="#" role="button">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="post-video-container">
+                                <div class="img-btn">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe src="https://youtu.be/aEikZqo-St0?t=3" title="YouTube video"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="my-btn">
+                                        <a href="" type="button" class="btn ">
+                                            company
+                                        </a>
+                                        <a href="" type="button" class="btn ">
+                                            image
+                                        </a>
+                                        <a href="" type="button" class="btn ">
+                                            travel
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="img-sticky">
+                                            Post with Video
+                                        </h3>
+                                        <span class="calender">
+                                            <span>
+                                                <i class="fas fa-user"></i>
+                                                <a href="">admin</a></span>
+                                            <span>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <a href="">april,24,2022</a>
+                                            </span>
+                                        </span>
+
+                                        <hr>
+                                        <p class="post-discription">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe beatae
+                                            excepturi Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ad
+                                            animi deleniti.
+                                            cumque at delectus, dolorum recusandae! A illo veniam enim quam, repellendus
+                                            architecto, odio obcaecati rerum libero hic alias minima.
+                                        </p>
+                                        <div class="read">
+                                            <a class="btn rounded-pill" href="#" role="button">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-camera-container mt-5">
+                                <div class="img-btn">
+                                    <img src="../assets/images/blogs-image/2.jpg" class="img-fluid" alt="camera-image">
+
+                                    <div class="my-btn">
+                                        <a href="" type="button" class="btn ">
+                                            company
+                                        </a>
+                                        <a href="" type="button" class="btn ">
+                                            image
+                                        </a>
+                                        <a href="" type="button" class="btn ">
+                                            travel
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="img-sticky">
+                                            Maecenas ultricies
+                                        </h3>
+                                        <span class="calender">
+                                            <span>
+                                                <i class="fas fa-user"></i>
+                                                <a href="">admin</a></span>
+                                            <span>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <a href="">april,24,2022</a>
+                                            </span>
+                                        </span>
+
+                                        <hr>
+                                        <p class="post-discription">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe beatae
+                                            excepturi Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                            impedit facere delectus libero provident?
+                                            cumque at delectus, dolorum recusandae! A illo veniam enim quam, repellendus
+                                            architecto, odio obcaecati rerum libero hic alias minima.
+                                        </p>
+                                        <div class="read">
+                                            <a class="btn rounded-pill" href="#" role="button">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-media-container mt-5">
+                                <div class="img-btn">
+                                    <img src="../assets/images/blogs-image/3.jpg" class="img-fluid" alt="camera-image">
+
+                                    <div class="my-btn">
+                                        <a href="" type="button" class="btn ">
+                                            company
+                                        </a>
+                                        <a href="" type="button" class="btn ">
+                                            image
+                                        </a>
+                                        <a href="" type="button" class="btn ">
+                                            travel
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="img-sticky">
+                                            Praesent imperdiet
+                                        </h3>
+                                        <span class="calender">
+                                            <span>
+                                                <i class="fas fa-user"></i>
+                                                <a href="">admin</a></span>
+                                            <span>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <a href="">april,24,2022</a>
+                                            </span>
+                                        </span>
+
+                                        <hr>
+                                        <p class="post-discription">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe beatae
+                                            excepturi Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                                            alias nulla fugit, blanditiis iusto facilis accusamus, impedit rerum quasi
+                                            expedita beatae.
+                                            cumque at delectus, dolorum recusandae! A illo veniam enim quam, repellendus
+                                            architecto, odio obcaecati rerum libero hic alias minima.
+                                        </p>
+                                        <div class="read">
+                                            <a class="btn rounded-pill" href="#" role="button">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-12 d-flex justify-content-center mt-5">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                   
+                                    <li class="page-item "><a class="page-link c-active" href="blogs.html">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="blogs2.html">2</a></li>
+                                    <li class="page-item ">
+                                        <a class="page-link" href="blogs2.html" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-md-3 col-sm-12 mt-5 text-center bg-cyan ">
+                    <div class="search-bar card text-start ">
+                        <div class="row">
+                            <div class="col-5">
+                                <h4 class="form-header ">
+                                    Search
+                                </h4>
+                            </div>
+                            <div class="col-7 p-0 pe-1">
+                                <hr>
+                            </div>
+                        </div>
+
+
+                        <div class="input-group mb-3">
+
+                            <input type="text" class="form-control" placeholder="Search.." aria-label="Search.."
+                                aria-describedby="basic-addon1">
+                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                        </div>
+
+                    </div>
+
+                    <div class="post-card card text-start mt-5">
+                        <div class="row">
+                            <div class="col-8">
+                                <h4 class="form-header ">
+                                    recent-post
+                                </h4>
+                            </div>
+                            <div class="col-4 p-0 pe-1">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-3">
+                                <div class="figure">
+                                    <img src="../assets/images/blogs-image/1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="post">
+
+                                    <a href="#">Blog image post (sticky)</a>
+                                    <span>april,24,22</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row ">
+                            <div class="col-3">
+                                <div class="figure">
+                                    <img src="../assets/images/blogs-image/2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="post">
+
+                                    <a href="#">Blog image post (sticky)</a>
+                                    <span>april,24,22</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row ">
+                            <div class="col-3">
+                                <div class="figure">
+                                    <img src="../assets/images/blogs-image/3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="post">
+
+                                    <a href="#">Blog image post (sticky)</a>
+                                    <span>april,24,22</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row ">
+                            <div class="col-3">
+                                <div class="figure">
+                                    <img src="../assets/images/blogs-image/4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="post">
+
+                                    <a href="#">Blog image post (sticky)</a>
+                                    <span>april,24,22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="coments-section card text-start mt-5">
+                        <div class="row">
+                            <div class="col-11">
+                                <h4 class="form-header ">
+                                    recent-comments
+                                </h4>
+                            </div>
+                            <div class="col-1 p-0 ">
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="archives card text-start mt-5">
+                        <div class="row">
+                            <div class="col-6">
+                                <h4 class="form-header ">
+                                    archives
+                                </h4>
+                            </div>
+                            <div class="col-6 p-0 pe-1">
+                                <hr>
+                            </div>
+                        </div>
+                        <a href="">April 2018</a>
+                    </div>
+                    <div class="Categories card text-start mt-5">
+                        <div class="row">
+                            <div class="col-7">
+                                <h4 class="form-header ">
+                                    Categories
+                                </h4>
+                            </div>
+                            <div class="col-5 p-0 pe-1">
+                                <hr>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><a href="">Audio</a></li>
+                            <li><a href="">company</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">vidoe</a></li>
+                            <li><a href="">games</a></li>
+                            <li><a href="">laptop</a></li>
+                            <li><a href="">image</a></li>
+                            <li><a href="">travel</a></li>
+                            <li><a href="">WordPress</a></li>
+                            <li><a href="">other</a></li>
+                            <li><a href="">uncatagory</a></li>
+                            <li><a href="">image</a></li>
+                            <li><a href="">company</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="image-banner mt-5">
+                        <img src="../assets/images/blogs-image/4.jpg" alt="">
+                    </div>
+                    <div class="tags card text-start mt-5">
+                        <div class="row">
+                            <div class="col-4">
+                                <h4 class="form-header ">
+                                    tagss
+                                </h4>
+                            </div>
+                            <div class="col-8  ">
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="my-btn">
+                            <a href="" type="button" class="btn ">
+                                travel
+                            </a>
+                            <a href="" type="button" class="btn ">
+                                WordPress
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="contact mt-5">
+        <div class="container-fluid ">
+            <div class="container">
+                <div class="row d-flex align-items-center" style="height: 10rem;">
+                    <div class="col-4 ">
+                        <div>
+                            <h5 class="mb-0 mt-2">
+                                Sign Up For Newsletters
+                            </h5>
+                            <p class="small text-muted">
+                                Be the First to Know. Sign up for newsletter today
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-5 d-flex justify-content-end  ">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-0 " placeholder="Enter Your E-mail Address"
+                                aria-label="Input group example" aria-describedby="btnGroupAddon">
+                            <button type="button" class="btn btn-sm-yellow">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class=" social-icon col-3 d-flex  ">
+                        <a href="">
+                            <i class="fab fa-facebook-f fa-1x"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-twitter fa-1x"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-instagram fa-1x"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-linkedin-in fa-1x"></i>
+                        </a>
+                        <a href="">
+                            <i class="fas fa-rss fa-1x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container-fluid d-flex flex-wrap">
+            <div class="my-container">
+                <div class="row ">
+                    <div class="col-3 d-flex justify-content-center">
+                        <div class="p-5">
+                            <div>
+                                <figure class=" ms-3">
+                                    <img src="../assets/images/logo_sinrato (1).png" class="card-img-top" alt="..."
+                                        style="width: 200px;">
+                                </figure>
+                            </div>
+                            <div class="card-body">
+                                <p class="small text-muted">We are a team of designers and developers that
+                                    create high quality
+                                    WordPress, Magento,
+                                    Prestashop, Opencart themes.</p>
+                                <h5 class="card-title">Payment:</h5>
+                                <img src="./assets/images/payment-icon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" information col-2 mt-5">
+                        <h5>Information</h5>
+                        <ul class="list-group">
+                            <a href="#" class=" list-group-item-action"> Home Page</a>
+                            <a href="#" class=" list-group-item-action">Cart </a>
+                            <a href="#" class=" list-group-item-action">About Us</a>
+                            <a href="#" class=" list-group-item-action">Contact </a>
+                            <a href="#" class=" list-group-item-action">Wishlist </a>
+                            <a href="#" class=" list-group-item-action"> Privacy Policy</a>
+                            <a href="#" class=" list-group-item-action">Sample Page </a>
+                        </ul>
+                    </div>
+                    <div class="col-3 mt-5">
+                        <h5>
+                            Contact Us
+                        </h5>
+                        <p>Address: <span class="text-muted"> 4710-4890 Breckinridge St,Fayetteville, NC 28311</span>
+                        </p>
+
+                        <p>Email: <span class="text-muted">support@roadthemes.com</span></p>
+                        <p>Cell Us: <span class="h4">1-1001-234-5678</span> </p>
+                    </div>
+                    <div class="col-4 mt-5">
+                        <h5>Twiter Widget</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- elevate-zoom-cdn -->
+
+
+
+    <!-- j-query-cdn -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- owl-carousel -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- bootstrap-js -->
+
+    <script src="../assets/jsbs/js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom-js -->\
+
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

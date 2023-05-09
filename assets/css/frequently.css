@@ -1,0 +1,74 @@
+:root {
+    --custom-border: #ebebeb;
+    --custom-dark-border: #cfcdcd;
+    --brand-color:#fedc19;
+    --grey:grey;
+    --social-color:#212529;
+    --contact-border:#f0f0f0;
+    --font-color:#777;
+    --primary-font: 'Source Sans Pro', sans-serif;
+    --secondary-font:'Montserrat', sans-serif;
+  }
+/* .frequently-question header */
+  .frequently-question .fre-header{
+    font-weight:700;
+    font-family: var(--secondary-font);
+
+  }
+
+  .frequently-question .discrip-header{
+font-weight: bold;
+font-family: var(--primary-font);
+text-transform: initial;
+  }
+
+  .frequently-question .discription{
+    font-family: var(--primary-font);
+    color: var(--font-color);
+  }
+
+  /* .frequently-question header end */
+
+
+
+/* .frequently-question acordion */
+
+  .frequently-question .accordion{
+    border: 1px solid var(--custom-dark-border);
+    margin-bottom: 16px;
+
+  
+  }
+  
+  .frequently-question .accordion-header button{
+    font-weight: bold;
+    font-family: var(--primary-font);
+    text-transform: initial;
+    color: var(--social-color);
+    border: 1px solid var(--custom-dark-border);
+background-color: var(--custom-border);
+  
+
+  }
+  .frequently-question .accordion-header button:active,
+  .frequently-question .accordion-header button:focus
+  {
+    font-weight: bold;
+    font-family: var(--primary-font);
+    text-transform: initial;
+    color: var(--brand-color);
+    background-color: var(--custom-border);
+    border:1px solid var(--brand-color);
+
+  }
+
+
+  .frequently-question .accordion-body{
+    font-family: var(--primary-font);
+    color: var(--font-color);
+    padding:25px;
+    border: 1px solid var(--brand-color);
+
+  }
+
+ 

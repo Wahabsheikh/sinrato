@@ -1,0 +1,302 @@
+:root {
+    --custom-white:#fff;
+    --custom-border: #ebebeb;
+    --custom-dark-border: #cfcdcd;
+    --brand-color:#fedc19;
+    --grey:grey;
+    --social-color:#212529;
+    --contact-border:#f0f0f0;
+    --font-color:#777;
+    --primary-font: 'Source Sans Pro', sans-serif;
+    --secondary-font:'Montserrat', sans-serif;
+  }
+
+  /* blog-header */
+.blog-content .header-blog{
+    font-family: var(--primary-font);
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.5;
+    
+}
+
+/* blog-header-end */
+
+/* blog-content-btn */
+.blog-content .my-btn .btn{
+    background-color: var(--custom-white);
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-family: var(--primary-font);
+
+}
+.blog-content .my-btn .btn:hover,
+.blog-content .my-btn .btn:focus
+{
+    background-color: var(--brand-color);
+    color: var(--custom-white);
+}
+
+/* blog-content-btn-end */
+
+
+
+/* .blog-content */
+
+.blog-content .post-img-container ,
+.blog-content .post-audio-container,
+.blog-content .post-video-container,
+.blog-content .post-camera-container,
+.blog-content .post-media-container,
+.blog-content .post-galery-container
+
+{
+    position: relative;
+}
+
+.blog-content .post-img-container .my-btn,
+.blog-content .post-audio-container .my-btn,
+.blog-content .post-video-container .my-btn,
+.blog-content .post-camera-container .my-btn,
+.blog-content .post-media-container .my-btn,
+.blog-content .post-galery-container .my-btn
+
+{
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    z-index: 1;
+}
+
+/* .blog-content-end */
+
+
+/* .blog-content-header */
+.blog-content .img-sticky{
+    font-size: 2rem;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    margin:32px 0 ;
+    text-align: start;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.blog-content .img-sticky:hover{
+  color:var(--brand-color);
+  transition: .2s ease-in-out;
+}
+
+.blog-content .calender span a{
+text-align: start;
+text-decoration: none;
+color: var(--font-color);
+margin-left: 5px;
+text-transform: capitalize;
+
+}
+.blog-content .calender a:hover,
+.blog-content .calender a:focus{
+   color: var(--brand-color);
+    
+    
+    }
+.blog-content .calender span{
+       color: var(--brand-color);
+       margin: 0;
+       padding: 0;
+        
+        }
+.blog-content .calender span:nth-child(2){
+    margin-left: 20px;
+    
+    }
+/* .blog-content-header-end */
+
+
+/* .post-discription */
+
+.blog-content .post-discription{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    color: var(--font-color);
+}
+
+/* .post-discription-end */
+
+
+/* .blog-content-btn */
+
+.blog-content .read{
+    margin-top: 30px;
+}
+
+.blog-content .read .btn {
+    background-color: var(--brand-color);
+    color: var(--social-color);
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    cursor: pointer;
+}
+
+.blog-content .read .btn:hover{
+    background-color: var(--social-color);
+    color: var(--custom-white);
+}
+/* .blog-content-btn-end */
+
+/* .blog-content-searchbar */
+
+.blog-content .card{
+    padding: 30px 20px;
+}
+
+.blog-content .card .form-header{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+
+/* .blog-content-searchbar-end */
+
+
+/* .blog-content-post-card */
+.blog-content .post-card img{
+ width: 50px;
+ height: 50px;
+    margin-top: 6px;
+    }
+
+.blog-content .post-card .post a{
+font-size: 0.9rem;
+font-weight: bold;
+font-family: var(--primary-font);
+text-decoration: none;
+color: var(--social-color);
+}
+.blog-content .post-card .post a:hover,
+.blog-content .post-card .post a:focus
+{
+    color: var(--brand-color);
+    }
+.blog-content .post-card .post span{
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    text-decoration: none;
+    color: var(--font-color);
+    text-transform: capitalize;
+    }
+/* .blog-content-post-card-end */
+
+/* .blog-content archives */
+.blog-content .archives a{
+    font-size: 1rem;
+font-family: var(--secondary-font);
+list-style: none;
+text-decoration: none;
+color: var(--social-color);
+padding-top: 12px;
+}
+.blog-content .archives a:hover,
+.blog-content .archives a:focus
+{
+ color: var(--brand-color);
+}
+
+
+/* .blog-content archives-end */
+
+
+/* .blog-content-categories */
+.blog-content .Categories ul{
+list-style: none;
+padding: 0;
+}
+.blog-content .Categories ul li{
+}
+
+.blog-content .Categories ul li a{
+color: var(--font-color);
+text-decoration: none;
+line-height: 2.3;
+font-family: var(--primary-font);
+font-weight: 500;
+text-transform: capitalize;
+font-size: 1rem;
+letter-spacing: 1px;
+
+
+}
+.blog-content .Categories ul li a:hover,
+.blog-content .Categories ul li a:focus{
+    color: var(--brand-color);
+    }
+
+
+/* .blog-content-categories end*/
+
+/* .blog-content-tags */
+.blog-content .tags .my-btn a{
+    border: 1px solid var(--custom-dark-border);
+    color: var(--custom-dark-border);
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: var(--primary-font);
+}
+
+
+
+
+.blog-content .tags .my-btn a:hover,
+.blog-content .tags .my-btn a:focus
+{
+    background-color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+    color: var(--social-color);
+}
+
+/* .blog-content-tags-end */
+
+/* .blog-content -peginatin */
+
+.blog-content .pagination .page-item a{
+    /* border: 1px solid var(--custom-dark-border); */
+    color: var(--social-color);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+
+}
+
+
+
+
+
+
+
+.blog-content .pagination .page-item .page-link:hover,
+.blog-content .pagination .page-item .page-link:focus,
+.blog-content .pagination .page-item .page-link:active
+
+{
+    border: 1px solid var(--brand-color);
+    background-color: var(--brand-color)
+
+}
+.c-active
+{
+    /* border: 1px solid var(--brand-color); */
+    background-color: var(--brand-color)
+}
